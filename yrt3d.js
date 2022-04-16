@@ -89,7 +89,6 @@ function displayRotating() {
         rVerts[vert]["x"] = (mesh.vertices[vert]["x"] * Math.cos(radians(rotation))) - (mesh.vertices[vert]["z"] * Math.sin(radians(rotation)));
         rVerts[vert]["y"] = mesh.vertices[vert]["y"]
         rVerts[vert]["z"] = (mesh.vertices[vert]["x"] * Math.sin(radians(rotation))) + (mesh.vertices[vert]["z"] * Math.cos(radians(rotation)));
-        console.log(rVerts[vert]);
     }
     // Set the rotation for next time.
     rotation += rotationSpeed;
