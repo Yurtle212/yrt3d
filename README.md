@@ -1,4 +1,4 @@
-#YRT3d
+# YRT3d
 
 This is just a simple 3d model viewer I made. If you want to view a different model, you can export one from blender using the "yrt3dExporter.py".
 
